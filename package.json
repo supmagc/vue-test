@@ -1,0 +1,21 @@
+{
+  "name": "vue-test",
+  "version": "0.0.1",
+  "description": "Small test setup for a Vue project",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jelle Voet",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {
+    "rollup": "^0.49.3",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.5.2",
+    "typescript": "^2.5.2"
+  }
+}
