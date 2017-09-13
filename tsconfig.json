@@ -1,1 +1,22 @@
-{}
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "target": "es5",
+        "module": "es2015", // Enforced by rollup-plugin-typescript2
+        "noEmitHelpers": true, // Enforced by rollup-plugin-typescript2
+        "importHelpers": true, // Enforced by rollup-plugin-typescript2
+        "noResolve": false, // Enforced by rollup-plugin-typescript2
+        "sourceMap": true,
+        "strict": true,
+        "allowJs": true
+    },
+    /*"lib": [
+        "dom",
+        "es5",
+        "es2015.promise"
+    ],*/
+    "include": [
+        "./src/**/*"
+    ]
+}
