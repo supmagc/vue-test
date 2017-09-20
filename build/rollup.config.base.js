@@ -1,3 +1,4 @@
+import tslint from 'rollup-plugin-tslint'
 import typescript2 from 'rollup-plugin-typescript2'
 import nodeResolve from 'rollup-plugin-node-resolve'
 import nodeGlobals from 'rollup-plugin-node-globals'
@@ -10,6 +11,7 @@ const plugins = [
     typescript2(),
     nodeResolve(),
     nodeGlobals(),
+    //tslint(),
     vue(),
 ];
 
